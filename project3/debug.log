@@ -1,0 +1,17 @@
+
+
+1. Decode.cpp failed to initialisze the FUtype for instruction
+    fu_type=FUType::ALU;
+    instr->setFUType(FUType::ALU);
+2. Forgetting to set entry.running to true after issuing instructions to RS in execute stage
+3. Decode.cpp use br_op instead of instr->getBrOP() which not initialized
+4. RST_[rob_index] = rs_id; from RST_[instr->getRd()] = rs_id; Exceeds the memory limit
+
+
+
+gdb ./tinyrv
+run -s tests/rv32ui-p-add.hex
+break tinyrv::Core::issue
+watch FUs_[0]
+
+0x80000148

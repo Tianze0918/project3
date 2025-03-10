@@ -1,0 +1,38 @@
+1. RS.h
+2. ROB.cpp
+3. OOO.cpp
+4. decode.cpp
+5. Core.cpp
+
+
+
+RAT.h:     Register Alias Table
+RST.h:     Register Status Table
+RS.h/cpp:  Reservation Stations
+ROB.h/cpp: Reorder Buffer
+FU.h/cpp:  Functional Units
+ooo.cpp:   Out of order logic 
+
+order:
+1. Core.cpp     Complete
+2. OOO.cpp      Complete
+3. RS.h         Complete
+4. ROB.cpp      Complete
+5. decode.cpp   Complete
+
+
+
+RS:
+    1. Consist of # of entry struct, each have source register and functional unit
+    2. Issue: 
+        A. issuing instruction assigns an entry to an instruction pointer, rs1/2 register and data
+        B. Assigns each entry a Rob_index
+
+Functional Units:
+    1. Size=4
+    2. ALU/BRU/LSU/SFU
+        LSU represents Load Store
+        SFU: special fu
+
+RST:
+    1. Track mapping from ROB index to RS index

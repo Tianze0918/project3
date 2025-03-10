@@ -1,0 +1,118 @@
+g++ -std=c++11 -Wall -Wextra -Wfatal-errors -fPIC -Wno-maybe-uninitialized -I/w/home.16/class/classzha/project3 -I/w/home.16/class/classzha/project3/common -DXLEN_32  -O2 -DNDEBUG /w/home.16/class/classzha/project3/common/util.cpp /w/home.16/class/classzha/project3/common/mem.cpp /w/home.16/class/classzha/project3/src/main.cpp /w/home.16/class/classzha/project3/src/processor.cpp /w/home.16/class/classzha/project3/src/core.cpp /w/home.16/class/classzha/project3/src/decode.cpp /w/home.16/class/classzha/project3/src/ooo.cpp /w/home.16/class/classzha/project3/src/RS.cpp /w/home.16/class/classzha/project3/src/ROB.cpp /w/home.16/class/classzha/project3/src/FU.cpp  -o /w/home.16/class/classzha/project3/tinyrv
+make -C tests run
+make[1]: Entering directory '/w/home.16/class/classzha/project3/tests'
+Running rv32ui-p-add.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-addi.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-and.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-andi.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-auipc.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-beq.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-bge.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-bgeu.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-blt.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-bltu.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-bne.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-jal.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-jalr.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-lb.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-lbu.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-lh.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-lhu.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-lui.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-lw.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-or.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-ori.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-sb.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-sh.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-simple.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-sll.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-slli.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-slt.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-slti.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-sltiu.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-sltu.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-sra.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-srai.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-srl.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-srli.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-sub.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-sw.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-xor.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+Running rv32ui-p-xori.hex..
+PASSED!
+PERF: instrs=68, cycles=154
+make[1]: Leaving directory '/w/home.16/class/classzha/project3/tests'
